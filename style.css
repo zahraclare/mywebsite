@@ -1,0 +1,137 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/*header*/
+header{
+    display: inline-block;
+    padding: 24px 5%;
+    padding-top: 10px;
+    height: 30px;
+    background-color:#ffa600;
+    background-attachment:fixed;
+    position: fixed;
+    left: 0;
+    right: 0;
+    }
+header *{
+    
+    justify-content: center;
+    display:inline-block;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    margin:0 25px;
+}
+a:hover{
+    color: #000c8e;
+    text-shadow: 3.5px 3.5px rgba(75, 75, 75, 0.429);
+    transition-duration: 1s;
+}
+header h1{
+    text-shadow: 4px 4px rgba(75, 75, 75, 0.429);
+    color:  #ffffff;
+    margin: right 35px;
+}
+header nav{
+    font-size: 17px;
+}
+.banner_{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:#0f149a;
+    padding:15% 3%;
+    font-size:33px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.banner{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 180px;
+}
+
+/*main*/
+article{
+    text-align: center;
+    align-items: center;
+}
+main{
+    margin: 0;
+    padding: 5px;
+}
+.post{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    margin: 8px;
+}
+.post {
+    
+    border-color: #d8d8d894;
+    border-style: ridge;
+    border-width: 1.4px;
+    border-radius: 6%;
+    transition: 0.3s;
+    width: 20%;
+}
+.post:hover {
+    box-shadow : 3px 5px rgba(110, 109, 109, 0.429);
+}
+.container {
+    padding: 4px 16px;
+    text-align: center;
+}
+.break{
+    font-family: serif;
+    font-size: 25px;
+    color: rgb(26, 15, 102);
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+img{
+    width: 250px;
+    height: 250px;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 5%;
+    background-color: #070db7;
+    left: 0;
+    right: 0;
+    }
+footer *{
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.429);
+    display:inline-block;
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    margin:0 25px;
+}
+footer h1{
+    
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 40px;
+    padding:11px;
+    margin: right 35px;
+}
+#aboutus div{
+    font-size: 15px;
+    width: 250px;
+    height: 55px;
+}
+.contact{
+    padding-left: 50px;
+}
+
+.address{
+    padding-left: 50px;
+}
